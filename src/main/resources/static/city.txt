@@ -1,0 +1,28 @@
+#Cities in the east coast (connected in this file to each other through a series of roads)
+Boston, New York
+Philadelphia, Newark
+Newark, Boston
+Trenton, Albany
+Washington DC, Philadelphia
+Philadelphia, Wilmington
+Trenton, Philadelphia
+Princeton, Trenton
+Edison, Princeton
+Newark, Edison
+Boston, Hartford
+
+#Virginia state cities (not connected in this file to any other state)
+richmond, norfolk
+richmond, chantilly
+
+#Alaska state cities (not connected in this file to any other state)
+Anchorage, Fairbanks
+
+#Hawaii state cities  (not connected in this file to any other state):
+Honolulu, kapolei
+Honolulu, kailua
+
+Hilo, Pahoa
+
+#An island, (not connected in this file to any other city):
+Nantucket 
