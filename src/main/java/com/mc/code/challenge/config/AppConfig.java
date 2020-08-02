@@ -15,7 +15,7 @@ import com.google.common.graph.ImmutableGraph;
 import com.google.common.graph.MutableGraph;
 
 @Configuration
-public class AppConfig {
+public class AppConfig { 
 
 	@Bean(name = "cityConnections")
 	public ImmutableGraph<String> getCityMapping() throws IOException {
