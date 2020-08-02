@@ -2,6 +2,10 @@
 	*A REST HTTP Service  that can determine if two cities are connected through a series of roads:
 	The service returns 'yes' if two cities are connected and 'no' otherwise
 	
+	Two cities are considered connected if there’s a series of roads that can be traveled from one city to another.
+	List of roads is available in a file (city.txt). The file contains a list of city pairs (one pair per line, comma separated), 
+	which indicates that there’s a road between those cities.
+	
 	*For Example:
 	
 	city.txt content is:
@@ -16,10 +20,6 @@
 	will return yes
 	http://localhost:8080/connected?origin=Philadelphia&destination=Albany
 	will return no
-	
-	Two cities are considered connected if there’s a series of roads that can be traveled from one city to another.
-	List of roads is available in a file (city.txt). The file contains a list of city pairs (one pair per line, comma separated), 
-	which indicates that there’s a road between those cities.
 	
 	 
 ## Java 8 + SpringBoot Solution
