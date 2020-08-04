@@ -48,3 +48,8 @@
 
 	```
 
+*Please check the city.txt file. (The lines starting with a # are comments that will not be processed into the graph)
+	It includes connected cities as well as disconnected cities
+	It includes pairs of cities not connected to other cities (Virginia & Hawaii)
+	Also, Nantucket is an island not connected to any other city
+
